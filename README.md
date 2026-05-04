@@ -70,7 +70,6 @@ SQLite database is used to store consumer registration details permanently. Data
 ## 8. Important Manifest.xml Configuration
 
 ### If starting app from MainActivity:
-```xml
 <activity
     android:name=".MainActivity"
     android:exported="true">
@@ -80,7 +79,7 @@ SQLite database is used to store consumer registration details permanently. Data
     </intent-filter>
 </activity>
 
-If starting app from RegisterActivity:
+### If starting app from RegisterActivity:
 <activity
     android:name=".RegisterActivity"
     android:exported="true">
@@ -90,7 +89,9 @@ If starting app from RegisterActivity:
     </intent-filter>
 </activity>
 
-Only one activity should contain MAIN and LAUNCHER intent filter.
+Only one activity should contain `MAIN` and `LAUNCHER` intent filter.
+
+---
 
 ## 9. Conclusion
 Thus, the Consumer Billing Application was successfully developed using Android Studio. The application performs electricity bill calculation, uses intent passing for transferring data between activities, and stores consumer registration details using SQLite database.
