@@ -92,6 +92,6 @@ If starting app from RegisterActivity:
 
 Only one activity should contain MAIN and LAUNCHER intent filter.
 
-9. Conclusion
+## 9. Conclusion
 
 Thus, the Consumer Billing Application was successfully developed using Android Studio. The application performs electricity bill calculation, uses intent passing for transferring data between activities, and stores consumer registration details using SQLite database.
