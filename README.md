@@ -70,7 +70,7 @@ SQLite database is used to store consumer registration details permanently. Data
 ## 8. Important Manifest.xml Configuration
 
 ### If starting app from MainActivity:
-
+```xml
 <activity
     android:name=".MainActivity"
     android:exported="true">
@@ -79,9 +79,9 @@ SQLite database is used to store consumer registration details permanently. Data
         <category android:name="android.intent.category.LAUNCHER" />
     </intent-filter>
 </activity>
-
+'''
 ### If starting app from RegisterActivity:
-
+'''xml
 <activity
     android:name=".RegisterActivity"
     android:exported="true">
@@ -90,7 +90,7 @@ SQLite database is used to store consumer registration details permanently. Data
         <category android:name="android.intent.category.LAUNCHER" />
     </intent-filter>
 </activity>
-
+'''
 Only one activity should contain `MAIN` and `LAUNCHER` intent filter.
 
 ---
